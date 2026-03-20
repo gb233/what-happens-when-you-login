@@ -72,6 +72,12 @@ cursor.execute("SELECT * FROM users WHERE username=%s", (username,))
 - **ORM框架**：使用Django ORM、SQLAlchemy等
 - **WAF规则**：ModSecurity OWASP CRS
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 ### 2. XSS (跨站脚本)

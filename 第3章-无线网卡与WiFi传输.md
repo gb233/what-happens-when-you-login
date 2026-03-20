@@ -6,6 +6,12 @@
 
 这是一个"看不见的战场"——密码在空中传播，任何人都可以"听到"，但只有拥有密钥的人才能"听懂"。
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 ## 典型业务场景

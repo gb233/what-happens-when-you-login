@@ -6,6 +6,12 @@ DNS返回了IP地址，密码即将进入目标数据中心。
 
 在进入应用服务器之前，密码会经过负载均衡器的"安检"——这里是TLS加密通信的终点，也是安全防御的前沿阵地。
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 ## 典型业务场景

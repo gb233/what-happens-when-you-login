@@ -278,6 +278,12 @@ server {
 - **定期更换IP**：发现泄露后立即更换源站IP
 - **所有子域名接入CDN**：不留遗漏
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 ### 2. API凭证泄露

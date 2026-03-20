@@ -2,6 +2,12 @@
 
 >  **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 **你正在做这件事，可能每天几次。**

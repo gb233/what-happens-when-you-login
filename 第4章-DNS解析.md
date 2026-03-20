@@ -6,6 +6,12 @@
 
 DNS就像是"互联网的电话簿"——你输入的是`taobao.com`，但计算机需要的是`110.75.***.***`这样的IP地址。如果这个"电话簿"被篡改，你拨打的"电话号码"可能指向诈骗犯而非银行。
 
+- - -
+
+> **GitHub 仓库**：[https://github.com/gb233/what-happens-when-you-login](https://github.com/gb233/what-happens-when-you-login)存放本系列文章
+
+- - -
+
 ---
 
 ## 典型业务场景
