@@ -1,0 +1,22 @@
+language: python
+cache: pip
+
+python:
+  - "3.9"
+
+install:
+  - pip install doc8 write-good
+
+script:
+  # Check reStructuredText syntax
+  - doc8 README.rst
+  # Check prose style (so = weasel words, thereIs = passive voice)
+  - write-good README.rst --so --thereIs --cliches
+
+branches:
+  only:
+    - main
+    - master
+
+notifications:
+  email: false
