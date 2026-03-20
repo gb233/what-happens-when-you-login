@@ -184,12 +184,12 @@ routes:
 **常见配置错误**：
 
 ```nginx
-# ❌ 危险配置：允许任意来源
+#  危险配置：允许任意来源
 add_header Access-Control-Allow-Origin *;
 add_header Access-Control-Allow-Credentials true;
 # 攻击者网站可以携带用户Cookie访问API！
 
-# ❌ 危险配置：不验证Origin
+#  危险配置：不验证Origin
 if ($http_origin) {
     add_header Access-Control-Allow-Origin $http_origin;
 }
@@ -197,7 +197,7 @@ if ($http_origin) {
 
 **安全配置**：
 ```nginx
-# ✅ 安全配置：白名单限制
+#  安全配置：白名单限制
 map $http_origin $cors_origin {
     default "";
     "https://app.example.com" $http_origin;

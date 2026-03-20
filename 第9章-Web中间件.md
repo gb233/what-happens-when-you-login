@@ -176,10 +176,10 @@ pickle.loads(user_input)  # 可导致任意代码执行
 **防护措施**：
 ```python
 # 1. 永远不要直接拼接系统命令
-# ❌ 危险
+#  危险
 os.system(f"ping {user_input}")
 
-# ✅ 安全：使用参数化接口
+#  安全：使用参数化接口
 subprocess.run(["ping", "-c", "4", user_input], check=True)
 
 # 2. 输入白名单校验
@@ -542,8 +542,8 @@ def safe_match(pattern, string, timeout=1.0):
         return None  # 超时，视为不匹配
 
 # 方案二：避免使用灾难性回溯的正则写法（根本解）
-# ❌ 高风险：^(a+)+$
-# ✅ 低风险：^a+$（语义等价但无指数回溯）
+#  高风险：^(a+)+$
+#  低风险：^a+$（语义等价但无指数回溯）
 # 或使用 re2 引擎（线性时间保证，无回溯）：pip install google-re2
 ```
 
@@ -577,11 +577,11 @@ $data = unserialize($_GET['data']);  // POP链攻击
 
 ```python
 # 1. 使用安全格式替代原生序列化
-# ✅ 推荐：JSON
+#  推荐：JSON
 import json
 data = json.loads(user_input)
 
-# ✅ 推荐：Protocol Buffers（有严格模式验证）
+#  推荐：Protocol Buffers（有严格模式验证）
 
 # 2. 如果必须用原生序列化，进行签名验证
 import hmac
